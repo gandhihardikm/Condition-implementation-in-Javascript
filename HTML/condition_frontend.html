@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+	<h1>Welcome to Online Library Reservation booking System</h1>
+
+	<form>
+		<table>
+			<tr>
+				<td>
+					<h2>Select Zone : &nbsp;</h2>
+				</td>
+				<td><input type="radio" name="zone" value="Normal">Normal<br></td>
+				<td><input type="radio" name="zone" value="Silent">Silent<br></td>
+			</tr>
+
+			<tr>
+				<td>
+					<h2>Select Duration : &nbsp;</h2>
+				</td>
+				<td><input type="radio" name="hours" value="2 hours">2
+					hours<br></td>
+				<td><input type="radio" name="hours" value="4 hours">4
+					hours<br></td>
+			</tr>
+			<tr>
+				<td><button id="submit" type="submit" onclick="checkStudentValid()">Submit</button></td>
+			</tr>
+		</table>
+	</form>
+
+	<script src="../js/func.js">
+</script>
+
+</body>
+</html>
